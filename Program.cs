@@ -7,6 +7,8 @@ namespace Algorithms_and_data_structures
         static void Main(string[] args)
         {
             LinkedList<int>.StartLinkedList();
+            Collection<int>.StartCollections();
+            Console.ReadKey();
             
         }
     }
