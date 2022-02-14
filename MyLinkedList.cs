@@ -5,12 +5,12 @@ using System.Collections;
 namespace Algorithms_and_data_structures
 {
     //основные операции в связном списке включают добавление, удаление и поиск элемента в списке
-    class LinkedList<T> : IEnumerable<T>
+    class MyLinkedList<T> : IEnumerable<T>
         where T : IEquatable<T>
     {
         public Node<T> head;
 
-        public LinkedList()
+        public MyLinkedList()
         {
             head = null;
         }
@@ -149,7 +149,7 @@ namespace Algorithms_and_data_structures
         public void Print()
         {
             if (head == null)
-                Console.WriteLine("Linked list is empty");
+                Console.WriteLine("My Linked list is empty");
             else
             {
                 Node<T> current = head;
@@ -177,11 +177,11 @@ namespace Algorithms_and_data_structures
             }
         }
 
-        public static void StartLinkedList()
+        public static void StartMyLinkedList()
         {
             Console.WriteLine("----------LinkedList----------");
             Console.WriteLine();
-            LinkedList<int> list = new LinkedList<int>();
+            MyLinkedList<int> list = new MyLinkedList<int>();
             list.Print();
             list.Add(1);
             list.Add(2);

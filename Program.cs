@@ -6,8 +6,13 @@ namespace Algorithms_and_data_structures
     {
         static void Main(string[] args)
         {
-            LinkedList<int>.StartLinkedList();
-            Collection<int>.StartCollections();
+            //MyLinkedList<int>.StartMyLinkedList();
+            //MyCollection.StartCollectionsList();
+            //MyCollection.StartCollectionsList();
+            //MyCollection.StartCollectionsLinkedList();
+            //MyCollection.StartCollectionsQueue();
+            //MyCollection.StartCollectionsStack();
+            MyCollection.StartCollectionsDictionary();
             Console.ReadKey();
             
         }
