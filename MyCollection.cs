@@ -159,6 +159,7 @@ namespace Algorithms_and_data_structures
             Console.WriteLine(value);
             dict.Remove("new", out int value2);
             Console.WriteLine($".Remove(new) with out {value2}");
+            Console.WriteLine();
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Algorithms_and_data_structures
             //MyCollection.StartCollectionsList();
             //MyCollection.StartCollectionsLinkedList();
             //MyCollection.StartCollectionsQueue();
-            //MyCollection.StartCollectionsStack();
+            MyCollection.StartCollectionsStack();
             MyCollection.StartCollectionsDictionary();
             Console.ReadKey();
             
