@@ -8,7 +8,7 @@ namespace Algorithms_and_data_structures
     class MyLinkedList<T> : IEnumerable<T>
         where T : IEquatable<T>
     {
-        public Node<T> head;
+        public Node<T>? head;
 
         public MyLinkedList()
         {
